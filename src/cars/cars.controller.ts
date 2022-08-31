@@ -3,8 +3,6 @@ import { CarsService } from './cars.service';
 
 import { CreateCarDto, UpdateCarDto } from './dto';
 
-
-
 @Controller('cars')
 export class CarsController {
    
@@ -37,7 +35,6 @@ export class CarsController {
         return this.carsService.delete(id)
     }
 
-    
 }
 
 
